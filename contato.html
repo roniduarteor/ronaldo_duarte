@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronaldo Contato</title>
+</head>
+<body>
+    
+    <h1>Contatos</h1>
+    <a href="index.html" >Voltar</a>
+    <hr>
+
+    <p>
+        <strong>Nome</strong>: Ronaldo Duarte
+        <br>
+        <strong>E-mail</strong>: ronaldo.d.rodrigues@aluno.senai.br
+    </p>
+
+    <hr>
+
+    <!-- "action" para onde vou mandar as informações
+        "method" de que forma vou mandar essas informações
+    
+    "mailto: + seu email" envia as informações para o email digitado -->
+    <form action="mailto:ronaldo.d.rodrigues@aluno.senai.br" method="post" enctype="text/plain">
+        <!--"enctype= text/plain" diz que todas as informações que vou receber vai ser de texto-->
+
+        <h3>Preencha o formulário com suas informações</h3>
+
+        <label for="text">Nome:</label>
+        <br>
+        <input type="text" placeholder="Digite seu nome" required>
+        
+        <br>
+        
+        <label for="text">Sobrenome:</label>
+        <br>
+        <input type="text" placeholder="Digite seu sobrenome" required>
+
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" placeholder="Digite seu e-mail" required>
+
+        <br><br>
+
+        <label for="mensagem">Digite sua mensagem:</label>
+        <br>
+        <textarea id="mensagem" cols="40" rows="5" placeholder="Deixe uma mensagem" required></textarea >
+        
+        
+        <br>
+        <input type="submit">
+        
+    </form>
+</body>
+</html>
