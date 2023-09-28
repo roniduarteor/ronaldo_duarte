@@ -1,0 +1,31 @@
+.geral{
+    font-family: cursive;
+}
+
+.tituloPrincipal{
+    font-size: 40px;
+}
+
+.destaqueEmDesign{
+    color: rgb(0, 0, 0);
+}
+
+
+.corHabilidades{
+    background-color:rgb(176, 223, 250);
+    text-align: center;
+}
+
+.corExperiencia{
+    background-color: rgb(185, 253, 188);
+    text-align: center;
+}
+
+.tabelaExperiencia{
+    text-align: center;
+}
+
+tr{
+    text-align: center;
+    vertical-align: middle;
+}
